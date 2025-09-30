@@ -6,6 +6,37 @@
     <title>Basic Layout 4</title>
     <link rel="stylesheet" href="../style.css">
     <style>
+      body {
+      display: grid;
+      grid-template-columns: 1fr 150px; /* twee gelijke kolommen */
+      grid-template-rows: 1fr 1fr;    /* twee gelijke rijen */
+      gap: 1em;
+  
+     }
+
+     header {
+     grid-column: 2; /* rechterkolom */
+     grid-row: 1;    /* bovenste rij */
+     }
+
+    nav {
+    grid-column: 2; /* rechterkolom */
+    grid-row: 2;    /* onderste rij */
+    }
+
+   main {
+    grid-column: 1; /* linkerkolom */
+    grid-row: 1;    /* bovenste rij */
+   }
+
+   footer {
+   grid-column: 1; /* linkerkolom */
+   grid-row: 2;    /* onderste rij */
+  }
+
+
+
+
       /* Doe hier jouw ding! */
     </style>
   </head>

@@ -6,6 +6,43 @@
     <title>Basic Layout 5</title>
     <link rel="stylesheet" href="../style.css">
     <style>
+    body {
+        display: grid;
+
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        gap: 1em;
+
+        }
+
+       header {
+          grid-row-start:1;
+          grid-column: 1;
+        }
+        
+          nav{
+          grid-column: 1;
+          
+         }
+
+        main {
+          grid-column:1;
+        }
+       
+        footer {
+          grid-column:1;
+          grid-row-end:4;
+        }
+
+        
+
+      
+
+
+
+
+      
+
       /* Doe hier jouw ding! */
     </style>
   </head>
